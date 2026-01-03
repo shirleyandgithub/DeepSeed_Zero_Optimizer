@@ -1,0 +1,10 @@
+{
+    "train_batch_size": "auto",
+    "gradient_accumulation_steps": "auto",
+    "zero_optimization": {
+        "stage": 3,
+        "stage3_prefetch_bucket_size": 1e7,
+        "stage3_param_persistence_threshold": 1e5
+    },
+    "bf16": { "enabled": true }
+}
