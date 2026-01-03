@@ -2,7 +2,8 @@
 
 
 **运行环境**：4090*2    48G显存<br>
-**模型**：deepseek-math-7b<br><br>
+**模型**：deepseek-math-7b<br>
+**框架**：deepseed<br><br>
 
 <p>
 case0：不开zero,    ---配置文件ds_z0.json<br>
