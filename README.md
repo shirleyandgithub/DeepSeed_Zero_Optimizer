@@ -1,5 +1,9 @@
 <p>ZeRO和激活重算可以分别对静态显存(包括模型参数、梯度、优化器)和动态显存(中间激活 值)进行优化;</p><br><br><br>
 
+
+**运行环境**：4090*2    48G显存<br>
+**模型**：deepseek-math-7b<br><br>
+
 <p>
 case0：不开zero,    ---配置文件ds_z0.json<br>
 case1：zero-1，切分优化器，    ---配置文件ds_z1.json<br>
